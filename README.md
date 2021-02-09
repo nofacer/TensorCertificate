@@ -20,11 +20,11 @@ Help you get prepared for TensorFlow Developer Certificate~
 1. ~~Build, compile and train machine learning (ML) models using TensorFlow.~~
 1. Preprocess data to get it ready for use in a model.
 1. ~~Use models to predict results.~~
-1. Build sequential models with multiple layers.
-1. Build and train models for binary classification.
-1. Build and train models for multi-class categorization.
-1. Plot loss and accuracy of a trained model.
-1. Identify strategies to prevent overfitting, including augmentation and dropout.
+1. ~~Build sequential models with multiple layers.~~
+1. Build and train models for binary classification. 
+1. Build and train models for multi-class categorization. [1](./notebooks/1.fully_connection_MNIST.ipynb)
+1. ~~Plot loss and accuracy of a trained model.~~
+1. Identify strategies to prevent overfitting, including augmentation and dropout. [1](./notebooks/1.fully_connection_MNIST.ipynb)
 1. Use pretrained models (transfer learning).
 1. Extract features from pre-trained models.
 1. Ensure that inputs to a model are in the correct shape.
@@ -41,7 +41,7 @@ Help you get prepared for TensorFlow Developer Certificate~
 1. Define Convolutional neural networks with Conv2D and pooling layers.
 1. Build and train models to process real-world image datasets.
 1. Understand how to use convolutions to improve your neural network.
-1. Use real-world images in different shapes and sizes..
+1. Use real-world images in different shapes and sizes.
 1. Use image augmentation to prevent overfitting.
 1. Use ImageDataGenerator.
 1. Understand how ImageDataGenerator labels images based on the directory structure.
