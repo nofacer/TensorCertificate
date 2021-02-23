@@ -25,9 +25,9 @@ Help you get prepared for TensorFlow Developer Certificate~
 1. ~~Use models to predict results.~~
 1. ~~Build sequential models with multiple layers.~~
 1. Build and train models for binary classification. 
-1. Build and train models for multi-class categorization. [1](./notebooks/1.fully_connection_MNIST.ipynb)
+1. Build and train models for multi-class categorization. [1](./notebooks/1_mnist.ipynb)
 1. ~~Plot loss and accuracy of a trained model.~~
-1. Identify strategies to prevent overfitting, including augmentation and dropout. [1](./notebooks/1.fully_connection_MNIST.ipynb)
+1. Identify strategies to prevent overfitting, including augmentation and dropout. [1](./notebooks/1_mnist.ipynb)
 1. Use pretrained models (transfer learning).
 1. Extract features from pre-trained models.
 1. Ensure that inputs to a model are in the correct shape.
