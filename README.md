@@ -6,6 +6,8 @@ PS：这个不是教程向的，仅用于备考及考试时速查用。详细教
 
 ![](./cover.png)
 
+## Notebooks
+* [3_sentiment classification.ipynb](https://colab.research.google.com/drive/1-J1b8tv9vDhKAhdusV3qDijgHqsk6ub3?usp=sharing)<span id="3"></span>
 ## 考点
 
 建议结合notebook对照考点练习。太宽泛的考点如A.1我就直接划掉了。要考试必然要达成的条件如B.1我也就直接划掉了，帮大家减少干扰。
@@ -23,11 +25,11 @@ PS：这个不是教程向的，仅用于备考及考试时速查用。详细教
 
 1. ~~Use TensorFlow 2.x.~~
 1. ~~Build, compile and train machine learning (ML) models using TensorFlow.~~
-1. Preprocess data to get it ready for use in a model. [2](./notebooks/2_flower_classfication.ipynb)
+1. ~~Preprocess data to get it ready for use in a model.~~
 1. ~~Use models to predict results.~~
 1. ~~Build sequential models with multiple layers.~~
-1. Build and train models for binary classification. 
-1. Build and train models for multi-class categorization. [1](./notebooks/1_mnist.ipynb) [2](./notebooks/2_flower_classfication.ipynb)
+1. ~~Build and train models for binary classification.~~
+1. ~~Build and train models for multi-class categorization.~~
 1. ~~Plot loss and accuracy of a trained model.~~
 1. Identify strategies to prevent overfitting, including augmentation and dropout. [1](./notebooks/1_mnist.ipynb) [2](./notebooks/2_flower_classfication.ipynb)
 1. Use pretrained models (transfer learning). [2](./notebooks/2_flower_classfication.ipynb)
@@ -54,13 +56,13 @@ PS：这个不是教程向的，仅用于备考及考试时速查用。详细教
 ### D. Natural language processing (NLP)
 
 1. ~~Build natural language processing systems using TensorFlow.~~
-1. Prepare text to use in TensorFlow models.
-1. Build models that identify the category of a piece of text using binary categorization
+1. Prepare text to use in TensorFlow models. [3](#3)
+1. Build models that identify the category of a piece of text using binary categorization [3](#3)
 1. Build models that identify the category of a piece of text using multi-class categorization
-1. Use word embeddings in your TensorFlow model.
-1. Use LSTMs in your model to classify text for either binary or multi-class categorization.
+1. Use word embeddings in your TensorFlow model. [3](#3)
+1. Use LSTMs in your model to classify text for either binary or multi-class categorization. [3](#3)
 1. Add RNN and GRU layers to your model.
-1. Use RNNS, LSTMs, GRUs and CNNs in models that work with text.
+1. Use RNNS, LSTMs, GRUs and CNNs in models that work with text. [3](#3)
 1. Train LSTMs on existing text to generate text (such as songs and poetry)
 
 ### E. Time series, sequences and predictions
