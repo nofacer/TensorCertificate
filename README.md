@@ -7,6 +7,8 @@ PS：这个不是教程向的，仅用于备考及考试时速查用。详细教
 ![](./cover.png)
 
 ## Notebooks
+* [1_mnist.ipynb](https://colab.research.google.com/drive/1dAbddoKtBydG1ROdZ5nN8cE7z63-4TCn?usp=sharing)<span id="1"></span> 
+* [2_flower_classfication.ipynb](https://colab.research.google.com/drive/14er0glheEIKf4M_p_fhP-Vf0qAu8eT9G?usp=sharing)<span id="2"></span> 
 * [3_sentiment classification.ipynb](https://colab.research.google.com/drive/1-J1b8tv9vDhKAhdusV3qDijgHqsk6ub3?usp=sharing)<span id="3"></span>
 ## 考点
 
@@ -31,9 +33,9 @@ PS：这个不是教程向的，仅用于备考及考试时速查用。详细教
 1. ~~Build and train models for binary classification.~~
 1. ~~Build and train models for multi-class categorization.~~
 1. ~~Plot loss and accuracy of a trained model.~~
-1. Identify strategies to prevent overfitting, including augmentation and dropout. [1](./notebooks/1_mnist.ipynb) [2](./notebooks/2_flower_classfication.ipynb)
-1. Use pretrained models (transfer learning). [2](./notebooks/2_flower_classfication.ipynb)
-1. Extract features from pre-trained models. [2](./notebooks/2_flower_classfication.ipynb)
+1. Identify strategies to prevent overfitting, including augmentation and dropout. [1](#1) [2](#2)
+1. Use pretrained models (transfer learning). [2](#2)
+1. Extract features from pre-trained models. [2](#2)
 1. ~~Ensure that inputs to a model are in the correct shape.~~
 1. ~~Ensure that you can match test data to the input shape of a neural network.~~
 1. ~~Ensure you can match output data of a neural network to specified input shape for test data.~~
@@ -45,13 +47,13 @@ PS：这个不是教程向的，仅用于备考及考试时速查用。详细教
 
 ### C. Image classification
 
-1. Define Convolutional neural networks with Conv2D and pooling layers. [2](./notebooks/2_flower_classfication.ipynb)
-1. Build and train models to process real-world image datasets. [2](./notebooks/2_flower_classfication.ipynb)
-1. Understand how to use convolutions to improve your neural network. [2](./notebooks/2_flower_classfication.ipynb)
-1. Use real-world images in different shapes and sizes. [2](./notebooks/2_flower_classfication.ipynb)
-1. Use image augmentation to prevent overfitting. [2](./notebooks/2_flower_classfication.ipynb)
-1. Use ImageDataGenerator. [2](./notebooks/2_flower_classfication.ipynb)
-1. Understand how ImageDataGenerator labels images based on the directory structure. [2](./notebooks/2_flower_classfication.ipynb)
+1. Define Convolutional neural networks with Conv2D and pooling layers. [2](#2)
+1. Build and train models to process real-world image datasets. [2](#2)
+1. Understand how to use convolutions to improve your neural network. [2](#2)
+1. Use real-world images in different shapes and sizes. [2](#2)
+1. Use image augmentation to prevent overfitting. [2](#2)
+1. Use ImageDataGenerator. [2](#2)
+1. Understand how ImageDataGenerator labels images based on the directory structure. [2](#2)
 
 ### D. Natural language processing (NLP)
 
