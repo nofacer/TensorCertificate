@@ -10,6 +10,7 @@ PS：这个不是教程向的，仅用于备考及考试时速查用。详细教
 * [1_mnist.ipynb](https://colab.research.google.com/drive/1dAbddoKtBydG1ROdZ5nN8cE7z63-4TCn?usp=sharing)<span id="1"></span> 
 * [2_flower_classfication.ipynb](https://colab.research.google.com/drive/14er0glheEIKf4M_p_fhP-Vf0qAu8eT9G?usp=sharing)<span id="2"></span> 
 * [3_sentiment classification.ipynb](https://colab.research.google.com/drive/1-J1b8tv9vDhKAhdusV3qDijgHqsk6ub3?usp=sharing)<span id="3"></span>
+* [4_text_generation.ipynb](https://colab.research.google.com/drive/1XAaIVo9fiZrMYezik9SEzFncPpfrQ-wl?usp=sharing)<span id="4"></span>
 ## 考点
 
 建议结合notebook对照考点练习。太宽泛的考点如A.1我就直接划掉了。要考试必然要达成的条件如B.1我也就直接划掉了，帮大家减少干扰。
@@ -40,7 +41,7 @@ PS：这个不是教程向的，仅用于备考及考试时速查用。详细教
 1. ~~Ensure that you can match test data to the input shape of a neural network.~~
 1. ~~Ensure you can match output data of a neural network to specified input shape for test data.~~
 1. ~~Understand batch loading of data.~~
-1. ~~Use callbacks to trigger the end of training cycles.~~
+1. Use callbacks to trigger the end of training cycles. [4](#4)
 1. Use datasets from different sources.
 1. Use datasets in different formats, including json and csv.
 1. Use datasets from tf.data.datasets.
@@ -60,12 +61,12 @@ PS：这个不是教程向的，仅用于备考及考试时速查用。详细教
 1. ~~Build natural language processing systems using TensorFlow.~~
 1. Prepare text to use in TensorFlow models. [3](#3)
 1. Build models that identify the category of a piece of text using binary categorization [3](#3)
-1. Build models that identify the category of a piece of text using multi-class categorization
+1. Build models that identify the category of a piece of text using multi-class categorization [4](#4)
 1. Use word embeddings in your TensorFlow model. [3](#3)
 1. Use LSTMs in your model to classify text for either binary or multi-class categorization. [3](#3)
-1. Add RNN and GRU layers to your model.
-1. Use RNNS, LSTMs, GRUs and CNNs in models that work with text. [3](#3)
-1. Train LSTMs on existing text to generate text (such as songs and poetry)
+1. Add RNN and GRU layers to your model. [4](#4)
+1. Use RNNS, LSTMs, GRUs and CNNs in models that work with text. [3](#3) [4](#4)
+1. Train LSTMs on existing text to generate text (such as songs and poetry) [4](#4)
 
 ### E. Time series, sequences and predictions
 
