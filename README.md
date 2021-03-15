@@ -11,6 +11,7 @@ PS：这个不是教程向的，仅用于备考及考试时速查用。详细教
 * [2_flower_classfication.ipynb](https://colab.research.google.com/drive/14er0glheEIKf4M_p_fhP-Vf0qAu8eT9G?usp=sharing)<span id="2"></span> 
 * [3_sentiment classification.ipynb](https://colab.research.google.com/drive/1-J1b8tv9vDhKAhdusV3qDijgHqsk6ub3?usp=sharing)<span id="3"></span>
 * [4_text_generation.ipynb](https://colab.research.google.com/drive/1XAaIVo9fiZrMYezik9SEzFncPpfrQ-wl?usp=sharing)<span id="4"></span>
+* [5_time_series_forecasting.ipynb](https://colab.research.google.com/drive/1GdHiTO7tKSSze_Fw0YttCoP71eZPwk9D?usp=sharing)<span id="5"></span>
 ## 考点
 
 建议结合notebook对照考点练习。太宽泛的考点如A.1我就直接划掉了。要考试必然要达成的条件如B.1我也就直接划掉了，帮大家减少干扰。
@@ -70,12 +71,20 @@ PS：这个不是教程向的，仅用于备考及考试时速查用。详细教
 
 ### E. Time series, sequences and predictions
 
-1. Train, tune and use time series, sequence and prediction models.
-1. Prepare data for time series learning.
-1. Understand Mean Average Error (MAE) and how it can be used to evaluate accuracy of sequence models.
-1. Use RNNs and CNNs for time series, sequence and forecasting models.
-1. Identify when to use trailing versus centred windows.
-1. Use TensorFlow for forecasting.
-1. Prepare features and labels.
+1. Train, tune and use time series, sequence and prediction models. [5](#5)
+1. Prepare data for time series learning. [5](#5)
+1. Understand Mean Average Error (MAE) and how it can be used to evaluate accuracy of sequence models. [5](#5)
+1. Use RNNs and CNNs for time series, sequence and forecasting models. [5](#5)
+1. Identify when to use trailing versus centred windows. 
+    ```
+    center_ma(t) = mean(obs(t-1), obs(t), obs(t+1))
+    A center moving average can be used as a general method to remove trend and seasonal components from a time series, a method that we often cannot use when forecasting.
+
+    trail_ma(t) = mean(obs(t-2), obs(t-1), obs(t))
+    Trailing moving average only uses historical observations and is used on time series forecasting.
+    ```
+1. Use TensorFlow for forecasting. [5](#5)
+1. Prepare features and labels. [5](#5)
 1. Identify and compensate for sequence bias.
-1. Adjust the learning rate dynamically in time series, sequence and prediction models.
+(When respondents tend to favor objects because of their position in a list or sequence. The objects at the beginning and at the end of a list can be remembered more than those occurring in the middle. Usual practice is to rotate a list to eliminate this type of bias.) 
+1. Adjust the learning rate dynamically in time series, sequence and prediction models. [5](#5)
